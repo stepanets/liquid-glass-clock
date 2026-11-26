@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_liquid_glass"
+    android:clipToOutline="true"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingHorizontal="22dp"
+    android:paddingVertical="16dp">
+
+    <TextClock
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:fontFeatureSettings="tnum"
+        android:format12Hour="h:mm"
+        android:format24Hour="HH:mm"
+        android:gravity="start"
+        android:includeFontPadding="false"
+        android:letterSpacing="-0.04"
+        android:shadowColor="#B0000000"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowRadius="8"
+        android:textColor="@color/glass_text"
+        android:textFontWeight="300"
+        android:textSize="52sp" />
+
+    <TextClock
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif"
+        android:format12Hour="EEEE, d MMMM"
+        android:format24Hour="EEEE, d MMMM"
+        android:gravity="start"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:shadowColor="#80000000"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowRadius="4"
+        android:textColor="@color/glass_text_secondary"
+        android:textFontWeight="500"
+        android:textSize="15sp" />
+</LinearLayout>

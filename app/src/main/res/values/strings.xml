@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Жидкое стекло</string>
+    <string name="widget_name">Жидкое стекло</string>
+    <string name="widget_name_wide">Жидкое стекло, широкие</string>
+    <string name="widget_description">Часы и дата, размер 2×2. Можно растянуть в ширину.</string>
+    <string name="widget_description_wide">Широкие часы и дата, размер 4×2.</string>
+    <string name="preview_kicker">Виджет для рабочего стола</string>
+    <string name="preview_hint">Зажми свободное место на экране, открой «Виджеты» и выбери «Жидкое стекло». Узкую плашку можно растянуть до широкой.</string>
+</resources>

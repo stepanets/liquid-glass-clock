@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="glass_text">#F7FAFF</color>
+    <color name="glass_text_secondary">#E6EEF8</color>
+    <color name="preview_text">#F4F8FF</color>
+    <color name="preview_text_muted">#D6E4F5</color>
+</resources>
